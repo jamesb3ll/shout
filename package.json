@@ -1,0 +1,19 @@
+{
+  "name": "shout",
+  "version": "0.1.0",
+  "description": "Extract text from Mac VoiceOver for accessibility testing",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "James Bell",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^2.1.1"
+  },
+  "dependencies": {
+    "screen-reader-reader": "^0.1.2"
+  }
+}
